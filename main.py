@@ -11,10 +11,10 @@ from routers import register, feedback
 async def startup_answer(bot : Bot):
     initializing_tables()
     await set_my_commands(bot)
-    await bot.send_message(5894214924 , "bot ishga tushdi✅")
+    await bot.send_message(5894214924 , "bot starts to work✅")
 
 async def ending_answer(bot : Bot):
-    await bot.send_message(5894214924, "bot ishdan tuxtadi❌")
+    await bot.send_message(5894214924, "bot stopped from working❌")
 
 
 
